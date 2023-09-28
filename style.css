@@ -204,6 +204,7 @@ section{
     gap: 1rem;
 }
 
+
 /* ICON */
 
 .icon{
@@ -316,18 +317,60 @@ section{
 
 /* EXPERIENCE SECTION */
 
-#experience{
+#experience {
     position: relative;
 }
 
-.experience-sub-title{
+.experience-details-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2rem auto;
+}
+
+.experience-container {
+    flex: 1;
+    background-color: white;
+    border: 1.5px solid black; /* Add a border as needed */
+    border-radius: 30px;
+    padding: 20px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  */
+    /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+}
+
+/* .experience-container:hover { */
+    /* transform: translateY(-5px);  */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  */
+/* } */
+
+.experience-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.experience-subtitle {
     color: rgb(85, 85, 85);
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
 }
 
-.experience-details-container{
+
+/* SKILLS */
+#skills{
+    position: relative;
+}
+
+.skills-sub-title{
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.skills-details-container{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -350,7 +393,7 @@ article{
 }
 
 /* PROJECTS SECTION */
-
+/* 
 #projects{
     position: relative;
 }
@@ -374,7 +417,104 @@ article{
 .project-btn{
     color: black;
     border-color: rgb(163, 163, 163);
+} */
+
+
+/* Style for the Projects section */
+/* #projects {
+    background-color: white;
+    padding: 50px 0;
 }
+
+.section__text__p1 {
+    color: #333;
+    font-size: 18px;
+}
+
+.title {
+    font-size: 36px;
+    margin-top: 20px;
+    color: #333;
+}
+
+.project-details-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.project-container {
+    flex: 1;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: calc(50% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-title {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.project-subtitle {
+    font-size: 18px;
+    color: #666;
+}
+
+.project-container p {
+    font-size: 16px;
+    color: #333;
+} */
+
+
+
+#project {
+    position: relative;
+}
+
+.project-details-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2rem auto;
+}
+
+.project-container {
+    flex: 1;
+    background-color: white;
+    border: 1.5px solid black; /* Add a border as needed */
+    border-radius: 30px;
+    padding: 20px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  */
+    /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+}
+
+/* .experience-container:hover { */
+    /* transform: translateY(-5px);  */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  */
+/* } */
+
+.project-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.project-subtitle {
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+
+
 
 
 /* CONTACT */
